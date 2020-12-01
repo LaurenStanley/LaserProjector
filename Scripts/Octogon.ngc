@@ -1,0 +1,51 @@
+(Generated with: DXF2GCODE, Version: Py3.6.7 PyQt5.11.3, Date: $Date: Fri Oct 25 20:45:56 2019 +0200 $)
+(Created from file: C:/Users/Lauren Stanley/Documents/LaserLightShow/Octogon.DXF)
+(Output format description: G-CODE for LinuxCNC)
+(Time: Fri Nov 27 12:42:17 2020)
+G20 (Units in inches)
+G90 (Absolute programming)
+G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z   0.591 
+
+(*** LAYER: 0 ***)
+T1 M6
+S6000
+
+(* SHAPE Nr: 0 *)
+G0 X   0.014 Y   5.466
+M3 M8
+G0 Z   0.118 
+F5
+G1 Z  -0.059
+F15
+G41
+G1 X  -0.026 Y   5.474
+G3 X   0.000 Y   5.412 I   0.044 J  -0.018
+G1 X   3.827 Y   3.827
+G1 X   5.412 Y   0.000
+G1 X   3.827 Y  -3.827
+G1 X   0.000 Y  -5.412
+G1 X  -3.827 Y  -3.827
+G1 X  -5.412 Y   0.000
+G1 X  -3.827 Y   3.827
+G1 X   0.000 Y   5.412
+G40
+F5
+G1 Z  -0.118
+F15
+G41
+G1 X   3.827 Y   3.827
+G1 X   5.412 Y   0.000
+G1 X   3.827 Y  -3.827
+G1 X   0.000 Y  -5.412
+G1 X  -3.827 Y  -3.827
+G1 X  -5.412 Y   0.000
+G1 X  -3.827 Y   3.827
+G1 X   0.000 Y   5.412
+G40
+F5
+G1 Z   0.118
+G0 Z   0.591 
+M9 M5
+G0 X   0.000 Y   0.000
+M2 (Program end)
